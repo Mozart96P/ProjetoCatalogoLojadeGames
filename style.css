@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;            
+}
+body{
+                background-color: #292928;
+}
+/* CONFIGURAÇÕES CABEÇALHO */
+
+#cabecalho{
+                width: 1300px;
+                margin: auto;
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+}
+#titulo-cabecalho{
+                font-family: 'Righteous', cursive;
+                font-weight: 500;
+                color: #1d7c91;
+}
+
+.itens-navegacao-cabecalho{
+                width: 30px;
+                margin-left: 30px;
+                border-style: solid;
+                border-color: #1d7c91;
+                border-width: 1px;
+}
+ /* CONFIGURAÇÕES SLIDE */
+ #slide{
+                 width: 1300px;
+                 padding-top: 10px;
+                 height: 400px;
+                 margin: auto;
+ }
+
+ .imagem-slide{
+                 width: 100%;
+                 height: 100%;
+ }
+ /* CONFIGURAÇÕES CONTEÚDO PRINCIPAL */
+ #conteudoprincipal{
+                 max-width: 1300px;
+                 margin: auto;
+ }
+ #artigo-conteudoprincipal{
+                 width: 70%;
+                 margin:auto;
+                 margin-top: 20px;
+ }
+ #txt-artigo{
+
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px; 
+                color: white; 
+                text-align: center;
+ }
+
+ .titulos-secoes-games-playstation{
+        background-color: #0254aa;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+ }
+
+ .titulos-secoes-games-xbox{
+    background-color: #107c0d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ .games{
+     background-color: white;
+     width: 300px;
+     height:390px;
+ }
+
+ .foto-games{
+        width: 200px;
+ }
+
+ .secoes-games{
+     display: grid;
+     grid-template-rows: auto auto;
+     grid-template-columns: auto, auto, auto, auto;
+ }
