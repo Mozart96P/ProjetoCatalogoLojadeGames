@@ -45,10 +45,16 @@ body{
  }
 .caixa-imagem-slide{
     width: 25%; 
-    /* position: relative;    */
+    position: relative;
 }
  .imagem-slide{
                  width: 1300px;
+ }
+ #radio-buttons{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
  }
  /* CONFIGURAÇÕES CONTEÚDO PRINCIPAL */
  #conteudoprincipal{
