@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#containerprincipal{
+    width: 1300px;
+    margin:auto;
+}
+#space-catalogoinicial{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
