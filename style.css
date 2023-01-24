@@ -10,7 +10,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(imagens/god_of_war_ragnarok_-1.jpg);
+    background-image: url(imagens/god-of-war-ragnarok.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,4 +206,48 @@ span{
     position: absolute;
     right: 15px;
     bottom: 15px;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #434343;
+    display: flex;
+    justify-content: space-around;
+}
+.container-formasdepagamento-contato{
+    width: 520px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.formasdepagamento{
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.formasdepagamento img{
+    margin-right: 15px;
+}
+.formasdepagamento p{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.contatos{
+    display: flex;
+    align-items: center;
+}
+.contatos img{
+    margin-right: 10px;
+}
+.contatos p{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
 }
