@@ -7,51 +7,53 @@
     margin:auto;
 }
 #space-catalogoinicial{
-    position: relative;
-    width: 100%;
+    width: 98.7vw;
     height: 100vh;
-    background-image: url(imagens/god-of-war-ragnarok.jpg);
+    background-image: url(imagens/god-of-war-ragnarok-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#containersombra{
-    width: 100%;
+#bgcatalogoinicial{
+    width: 98.7vw;
     height: 100vh;
-    background-color: rgba(37, 37, 37, 0.7);
-    position: relative;
+    background-color:rgba(0, 0, 0, 0.25);
 }
 header{
+    width: 1200px;
     margin: auto;
-    padding-top: 10px;
-    width: 1100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 h1{
+    padding-top: 15px;
+    text-align: center;
     font-size: 24px;
     font-family: share tech mono;
     color: white;
 }
 #lista{
+    width: 318px;
+    margin: auto;
+    margin-top: 10px;
     list-style: none;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
 }
 .itemlista{
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 550;
     font-family: helvetica;
     color: white;
     cursor: pointer;
+    
 }
-#descricaodapagina{
-    width: 1100px;
+#descricaoecontatos{
+    max-width:1250px;
     margin: auto;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 .titulo-anuncio{
     font-family: bakbak one;
@@ -62,6 +64,7 @@ h1{
 .descricao-anuncio{
     font-family: helvetica;
     font-size: 16px;
+    font-weight: 550;
     color:white;
 }
 #novidadegow{
@@ -239,17 +242,24 @@ h5{
     font-size: 14px;
     color: #ffffff;
 }
-.contatos{
+#formascontatos{
+    height: 195px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contatos{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #246cb7;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .contatos img{
-    margin-right: 10px;
-}
-.contatos p{
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
-    color: #ffffff;
+    width: 25px;
 }
 
 /* Configurações de Responsividade */
