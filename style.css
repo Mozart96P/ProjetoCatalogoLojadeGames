@@ -7,7 +7,7 @@
     margin:auto;
 }
 #space-catalogoinicial{
-    width: 98.7vw;
+    width: 98,7vw;
     height: 100vh;
     background-image: url(imagens/god-of-war-ragnarok-3.jpg);
     background-size: cover;
@@ -57,7 +57,7 @@ h1{
 }
 .titulo-anuncio{
     font-family: bakbak one;
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 300;
     color: white;
 }
@@ -68,18 +68,28 @@ h1{
     color:white;
 }
 #novidadegow{
-    position:absolute;
+    position: absolute;
     left: 50%;
-    bottom: 10px;
-    margin-left: -33%;
+    transform: translateX(-50%);
+    bottom: 20px;
     width: 850px;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+#lancamento{
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-color: #0254aa;
+    width: 95%;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 600;
 }
 #txtnovidade{
-    height: 140px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -87,8 +97,17 @@ h1{
 #txtnovidade p{
     color: #ffffff;
     font-family: helvetica;
+    font-weight: 550;
 }
-
+#btncomprar{
+    width: 120px;
+    height: 30px;
+    font-family: Bakbak one;
+    color: #ffffff;
+    background-color: #246cb7;
+    border-style: none;
+    cursor: pointer;
+}
 .anunciogamesplaystation{
     width: 100%;
     height: 410px;
