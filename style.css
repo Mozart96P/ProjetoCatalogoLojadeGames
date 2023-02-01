@@ -17,7 +17,7 @@
 #bgcatalogoinicial{
     width: 98.7vw;
     height: 100vh;
-    background-color:rgba(0, 0, 0, 0.25);
+    background-color:rgba(0, 0, 0, 0.30);
 }
 header{
     width: 1200px;
@@ -47,6 +47,10 @@ h1{
     color: white;
     cursor: pointer;
     
+}
+.itemlista a{
+    text-decoration: none;
+    color: #ffffff;
 }
 #descricaoecontatos{
     max-width:1250px;
@@ -177,6 +181,14 @@ h1{
     height: 380px;
     background-color: #f3f1f1;
     position: relative;
+    transition: transform .2s;
+}
+.game:hover{
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform:scale(1.03);
+    z-index: 9;
+    box-shadow: 1px 1px 5px #434343a1;
 }
 .gamespsxbox{
     padding-top: 10px;
