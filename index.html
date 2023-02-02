@@ -7,6 +7,7 @@
      <title>UniversalGames</title>
      <link rel="stylesheet" href="style.css">
      <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
         <div id="space-catalogoinicial">
@@ -40,7 +41,7 @@
                 </div>
              </div>
             </div>
-             <div id="novidadegow">
+            <div id="novidadegow">
                   <div id="txtnovidade">
                      <p id="lancamento">Lançamento</p>
                      <div>
@@ -244,6 +245,16 @@
                 <p>Pagamento no dinheiro através de boletos e diretamente nas lojas.</p>
             </div>
         </div>
-    </footer>                        
+    </footer>
+    <script>
+        $('li a').click(function(e){
+            e.preventDefault();
+            var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top;
+            $('html, body').animate({
+                scrollTop: targetOffset
+            }, 500);
+        });
+    </script>                        
 </body>
 </html>
