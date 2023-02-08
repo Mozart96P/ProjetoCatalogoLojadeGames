@@ -177,6 +177,7 @@ h1{
     background-color: #107c0d;
 }
 .game{
+    margin-top: 10px;
     width: 260px;
     height: 380px;
     background-color: #f3f1f1;
@@ -193,11 +194,13 @@ h1{
 .gamespsxbox{
     padding-top: 10px;
     padding-bottom: 10px;
-    display: grid;
-    grid-template-columns:auto auto auto auto ;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.subdivisao-psxbox{
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .divisaoinformacoesgame{
     width: 100%;
@@ -245,7 +248,7 @@ footer{
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
-    background-color: #434343;
+    background-color: #949393;
     display: flex;
     justify-content: space-around;
 }
@@ -271,7 +274,7 @@ h5{
 .formasdepagamento p{
     font-family: Helvetica, sans-serif;
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
 }
 #formascontatos{
     height: 195px;
@@ -295,14 +298,28 @@ h5{
 
 /* Configurações de Responsividade */
 @media  screen and(max-width:600px) {
-    
+    .subdivisao-psxbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media  screen and(min-width:601px) and(max-width:768px) {
-    
+    .subdivisao-psxbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
-@media  screen and(max-width:769px) and(max-width:992px) {
-    
+@media  screen and(min-width:769px) and(max-width:992px) {
+    .subdivisao-psxbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
-@media  screen and(max-width:993px) and(max-width:1200px) {
+@media  screen and(min-width:993px) and(max-width:1200px) {
     
 }
