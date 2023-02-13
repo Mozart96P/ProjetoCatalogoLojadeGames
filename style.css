@@ -9,7 +9,7 @@
 #space-catalogoinicial{
     width: 98,7vw;
     height: 100vh;
-    background-image: url(imagens/god-of-war-ragnarok-3.jpg);
+    background-image: url(imagens/wallpaper.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,6 +117,7 @@ h1{
     height: 410px;
     border-radius: 20px;
     background-image: url(imagens/GamePS.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
@@ -125,6 +126,7 @@ h1{
     height: 410px;
     border-radius: 20px;
     background-image: url(imagens/GameXBOX.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
@@ -297,28 +299,12 @@ h5{
 }
 
 /* Configurações de Responsividade */
-@media  screen and(max-width:600px) {
-    .subdivisao-psxbox{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media  screen and(min-width:601px) and(max-width:768px) {
-    .subdivisao-psxbox{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
+
+@media  screen and(min-width:320px) and(max-width:768px) {
+    
 }
 @media  screen and(min-width:769px) and(max-width:992px) {
-    .subdivisao-psxbox{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
+   
 }
 @media  screen and(min-width:993px) and(max-width:1200px) {
     
