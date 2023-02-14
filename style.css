@@ -20,7 +20,7 @@
     background-color:rgba(0, 0, 0, 0.30);
 }
 header{
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 h1{
@@ -300,12 +300,92 @@ h5{
 
 /* Configurações de Responsividade */
 
-@media  screen and(min-width:320px) and(max-width:768px) {
-    
-}
-@media  screen and(min-width:769px) and(max-width:992px) {
-   
-}
-@media  screen and(min-width:993px) and(max-width:1200px) {
-    
+@media screen and (max-width:600px) {
+    #lista{
+        width: 250px;
+        margin: auto;
+        margin-top: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    #descricaoecontatos{
+        max-width: 600px;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-anuncio{
+        font-family: bakbak one;
+        font-size: 24px;
+        font-weight: 300;
+        color: white;
+    }
+    .descricao-anuncio{
+        font-family: helvetica;
+        font-size: 14px;
+        font-weight: 550;
+        color:white;
+    }
+    #formascontatos{
+        width: 150px;
+        margin-top:10px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contatos{
+        width:35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #246cb7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .contatos img{
+        width: 20px;
+    }
+    #novidadegow{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #lancamento{
+        padding-bottom: 10px;
+        border-bottom-style: solid;
+        border-color: #0254aa;
+        width: 50%;
+        font-family: helvetica;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #videoiframe{
+        width: 315px;
+        height: 200px;
+    }
+    #txtnovidade{
+        /* height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; */
+    }
+    #txtnovidade p{
+        color: #ffffff;
+        font-family: helvetica;
+        font-size: 14px;
+        font-weight: 550;
+    }
+    #btncomprar{
+        width: 120px;
+        height: 30px;
+        font-family: Bakbak one;
+        color: #ffffff;
+        background-color: #246cb7;
+        border-style: none;
+        cursor: pointer;
+    }
 }
