@@ -368,10 +368,10 @@ h5{
         height: 200px;
     }
     #txtnovidade{
-        /* height: 340px;
+        width: 300px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around; */
+        justify-content: space-around;
     }
     #txtnovidade p{
         color: #ffffff;
@@ -387,5 +387,50 @@ h5{
         background-color: #246cb7;
         border-style: none;
         cursor: pointer;
+    }
+    .anunciogamesplaystation{
+        width: 95%;
+        height: 200px;
+        border-radius: 20px;
+        background-image: url(imagens/GamePS.jpg);
+        background-size: auto 100%;
+    }
+    .anunciogamesxbox{
+        width: 95%;
+        height: 200px;
+        border-radius: 20px;
+        background-image: url(imagens/GameXBOX.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    }
+    #simbolops{
+        width: 100%;
+        height: 30px;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px ;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0254aa;
+    }
+    #simbolops img{
+        width: 25px;
+    }
+    #simboloxbox{
+        width: 100%;
+        height: 30px;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px ;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #107c0d;
+    }
+    #simboloxbox img{
+        width: 25px;
     }
 }
