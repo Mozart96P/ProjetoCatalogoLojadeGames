@@ -69,6 +69,25 @@ h1{
     font-weight: 550;
     color:white;
 }
+#formascontatos{
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contatos{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #246cb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.contatos img{
+    width: 25px;
+}
 #novidadegow{
     position: absolute;
     left: 50%;
@@ -254,10 +273,9 @@ footer{
     padding-bottom: 15px;
     width: 100%;
     background-color: #949393;
-    display: flex;
-    justify-content: space-around;
 }
 .container-formasdepagamento-contato{
+    margin-left: 100px;
     width: 520px;
     height: 235px;
     display: flex;
@@ -281,26 +299,6 @@ h5{
     font-size: 14px;
     color: #000000;
 }
-#formascontatos{
-    height: 195px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.contatos{
-    width:45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #246cb7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-.contatos img{
-    width: 25px;
-}
-
 /* Configurações de Responsividade */
 
 @media screen and (max-width:600px) {
@@ -384,13 +382,13 @@ h5{
         font-weight: 550;
     }
     #btncomprar{
-        width: 120px;
-        height: 30px;
+        margin-top: 10px;
+        width: 90px;
+        height:25px;
         font-family: Bakbak one;
         color: #ffffff;
         background-color: #246cb7;
         border-style: none;
-        cursor: pointer;
     }
     .anunciogamesplaystation{
         width: 100%;
@@ -450,5 +448,32 @@ h5{
     }
     #simboloxbox img{
         width: 25px;
+    }
+    .subdivisao-psxbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+        background-color: #949393;
+    }
+    .container-formasdepagamento-contato{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 320px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .formasdepagamento img{
+        width: 30px;
+        margin-right: 5px;
+    }
+    .formasdepagamento p{
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+        color: #000000;
     }
 }
